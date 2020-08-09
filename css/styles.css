@@ -13,17 +13,20 @@ header {
     color: #fff !important;
 }
 
+.nav-link:hover {
+    color: #fac921 !important;
+}
+
 .navbar-brand {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #fac921 !important;
 }
-}
 
-.active .nav-link {
+/* .active .nav-link {
     color: #fac921 !important;
     border-bottom: solid 3px #fac921;
-}
+} */
 
 .header-content {
     font-family: 'Poppins', sans-serif !important;
@@ -59,6 +62,51 @@ header {
     color: #fff;
 }
 
-svg {
+.social-sidebar svg {
     fill: white;
+    width: 36px;
+    height: 36px;
+}
+
+.social-sidebar svg:hover {
+    fill: #fac921;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
+    color: #2a2a2e;
+}
+
+.section-title span {
+    border-bottom: solid 4px #fac921;
+    font-size: 2rem;
+}
+
+#about {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #2a2a2e;
+}
+
+#about .image-perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-image: url('../images/yo.jpg');
+    background-size: cover;
+    filter: grayscale(60%);
+}
+
+#about .image-perfil:hover {
+    filter: grayscale(0%);
+}
+
+#about p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+#about .name {
+    font-size: 1rem;
+    font-weight: 600;
 }

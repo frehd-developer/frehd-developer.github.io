@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+.text-primary {
+    color: #fac921 !important;
+}
+
+.text-secundary {
+    color: #2a2a2e !important;
+}
+
 header {
     background: linear-gradient(rgba(42, 42, 46, .75), rgba(42, 42, 46, .7)), url('../images/computer-1245714_1920.jpg');
     background-size: cover;
@@ -135,6 +143,31 @@ header {
     font-weight: 600;
     width: 160px;
 }
+
+/* training section */
+
+.training {
+    background: #fac921; 
+}
+
+.training span {
+    border-bottom: solid 4px #fff;
+}
+
+.training img {
+    height: 6rem;
+    filter: grayscale(90%);
+}
+
+.training img:hover {
+    filter: grayscale(0%);
+}
+
+.training p {
+    font-size: 1.2rem;
+}
+
+/* footer section */
 
 footer {
     background: #2a2a2e !important;

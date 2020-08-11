@@ -135,3 +135,25 @@ header {
     font-weight: 600;
     width: 160px;
 }
+
+footer {
+    background: #2a2a2e !important;
+    color: #fff;
+}
+
+footer .developer {
+    color: #fac921;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fac921;
+}
